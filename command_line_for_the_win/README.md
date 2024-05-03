@@ -1,6 +1,7 @@
 # Command Line for the Win
 
-![CMD Challenge](https://img.shields.io/badge/CMD%20Challenge-Completed-brightgreen)
+[![Capture d'écran du CMD Challenge](https://raw.githubusercontent.com/Beellal/alx-system_engineering-devops/main/command_line_for_the_win/1-next_9_tasks.png)](https://raw.githubusercontent.com/Beellal/alx-system_engineering-devops/main/command_line_for_the_win/1-next_9_tasks.png)
+
 
 This project involves completing tasks in the CMD Challenge game to improve command line skills.
 
