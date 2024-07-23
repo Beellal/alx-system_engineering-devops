@@ -1,0 +1,16 @@
+#NAT table rules
+*nat
+:PREROUTING ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+
+# Forward port 8080 to port 80
+-A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
+
+COMMIT
+
+# don't delete the 'COMMIT' line or these nat table rules won't be processed
+*filter
+:ufw-before-input - [0:0]
+:ufw-before-output - [0:0]
+:ufw-before-forward - [0:0]
+#...
